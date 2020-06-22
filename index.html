@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <script src="script.js"></script>
     <title>Magic 8-Ball</title>
   </head>
   <body>
@@ -12,16 +11,17 @@
       <h1 class="title">The Mystical Magic 8-Ball</h1>
     </div>
     <div class="container">
-      <h2 id="information">
+      <h2 class="information">
         Ask me what you want to know and click on the Magic 8 Ball
       </h2>
-      <input type="text" id="question" />
+      <input type="text" id="question" placeholder="Enter your question..." />
       <div class="eight-ball" id="eight-ball">
-        <div id="answer">
+        <div class="answer">
           <p id="eight">8</p>
           <p id="answer"></p>
         </div>
       </div>
     </div>
   </body>
+  <script src="script.js"></script>
 </html>

@@ -7,7 +7,7 @@
   text-align: center;
 }
 
-#information {
+.information {
   text-align: center;
 }
 
@@ -20,15 +20,39 @@
 
 #question {
   width: 40%;
-  height: 20px;
-  border: 1px double black;
+  height: 30px;
+  border: 1px solid black;
 }
 
 .eight-ball {
   border: 1px solid black;
   border-radius: 50%;
   background-color: black;
-  height: 300px;
-  width: 300px;
-  margin: 0 auto;
+  margin: auto;
+  margin-top: 50px;
+  height: 400px;
+  width: 400px;
+}
+
+.answer {
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 50%;
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  margin-top: 90px;
+}
+
+#eight {
+  color: grey;
+  margin: auto 0;
+  margin-top: 40px;
+  font-size: 100px;
+  font-weight: bold;
+}
+
+#answer {
+  color: blue;
+  font-size: 10px;
 }
