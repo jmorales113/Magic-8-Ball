@@ -3,3 +3,11 @@
   border-bottom: 2px solid black;
   text-align: center;
 }
+
+#information {
+  text-align: center;
+}
+
+.container {
+  border: 1px solid black;
+}
