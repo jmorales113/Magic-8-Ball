@@ -28,6 +28,10 @@ window.onload = function () {
   eightBall.addEventListener("click", () => {
     if (question.value.length < 1) {
       alert("Please enter a question");
+    } else {
+      eight.innerHTML = "";
+      const options = Math.floor(Math.random() * Math.floor(answers.length));
+      answer.innerHTML = answers[options];
     }
   });
 };

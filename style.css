@@ -21,6 +21,8 @@
 #question {
   width: 40%;
   height: 30px;
+  padding: 10px;
+  font-size: 15px;
   border: 1px solid black;
 }
 
@@ -50,9 +52,12 @@
   margin-top: 40px;
   font-size: 100px;
   font-weight: bold;
+  cursor: pointer;
 }
 
 #answer {
-  color: blue;
-  font-size: 10px;
+  color: grey;
+  padding: 35px;
+  letter-spacing: 1px;
+  font-size: 20px;
 }
