@@ -1,6 +1,9 @@
+/* body {
+
+} */
+
 .title {
   font-weight: bold;
-  border-bottom: 2px solid black;
   text-align: center;
 }
 
@@ -9,5 +12,23 @@
 }
 
 .container {
+  border: 1px dashed black;
+  margin: 0 auto;
+  text-align: center;
+  height: 600px;
+}
+
+#question {
+  width: 40%;
+  height: 20px;
+  border: 1px double black;
+}
+
+.eight-ball {
   border: 1px solid black;
+  border-radius: 50%;
+  background-color: black;
+  height: 300px;
+  width: 300px;
+  margin: 0 auto;
 }
