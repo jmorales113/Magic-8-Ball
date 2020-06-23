@@ -25,9 +25,9 @@
   border: 1px solid black;
 }
 
-#question[type="text"]:focus {
+/* #question[type="text"]:focus {
   background-color: blue;
-}
+} */
 
 .eight-ball {
   border: 1px solid black;
